@@ -5,7 +5,11 @@ import { Inter, Manrope } from "next/font/google";
 import localFont from "next/font/local";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  weight: ["400", "500", "600", "700", "800"],
+});
 
 const geist = localFont({
   src: [
