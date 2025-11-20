@@ -6,7 +6,7 @@ const Nav = () => {
   const isMobile = useMediaQuery("(max-width: 767px)");
 
   return (
-    <div className="bg-primary">
+    <div className="bg-primary relative ">
       {isMobile ? <MobileMenu /> : <DesktopMenu />}
     </div>
   );

@@ -14,7 +14,7 @@ const DesktopMenu = () => {
       <div className="flex items-center gap-[90px]">
         <div className="flex items-center gap-[24px] text-[#FFFFFFCC] font-inter font-medium text-[16px]">
           <div
-            className="flex items-center gap-[7px] relative"
+            className="flex items-center gap-[7px] relative z-[100]"
             onMouseEnter={() => setIsProductsOpen(true)}
             onMouseLeave={() => setIsProductsOpen(false)}
           >
@@ -54,4 +54,3 @@ const DesktopMenu = () => {
 };
 
 export default DesktopMenu;
-
