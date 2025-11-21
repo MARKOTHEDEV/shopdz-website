@@ -4,6 +4,10 @@ import Button from "../../components/Button";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import HomepageSection1 from "./homepage-section-1";
+import YourStoreYourWay from "./YourStoreYourWay";
+import SellAnything from "./sell-anything";
+import Whatbusinessowners from "./what-business-owners";
+import MainCTA from "@/src/components/MainCTA";
 
 const Homepage = () => {
   return (
@@ -180,7 +184,13 @@ const Homepage = () => {
             className="w-full block  absolute    z-[2] translate-y-[-100px]  right-0 block md:translate-y-[-200px]"
           />
         </div>
-        <HomepageSection1 />
+        <div className="bg-[#FFFFFF]">
+          <HomepageSection1 />
+          <YourStoreYourWay />
+          <SellAnything />
+          <Whatbusinessowners />
+          <MainCTA />
+        </div>
       </div>
     </GeneralLayout>
   );
