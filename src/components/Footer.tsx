@@ -29,7 +29,7 @@ const EachFoolterSectionLinks = ({
 const Footer = () => {
   return (
     <div className="bg-[#131211]">
-      <div className="px-[20px] py-[40px] bg-[#131211] mt-[40px] flex flex-col gap-[40px] md:gap-[48px] max-w-[1100px] mx-auto">
+      <div className="px-[20px] py-[40px] bg-[#131211] mt-[40px] flex flex-col gap-[40px] md:gap-[48px] max-w-[1200px] mx-auto">
         <div className="flex flex-col md:flex-row gap-[24px] md:items-center justify-between">
           <div className="max-w-[292px]">
             <div>
