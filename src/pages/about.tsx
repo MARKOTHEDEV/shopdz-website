@@ -80,7 +80,10 @@ const About = () => {
           <div>
             <p className=" font-manrope font-bold text-[32px] leading-[40px] md:text-[48px] md:text-[#131211] md:leading-[56px]">
               <span className="block text-nowrap">
-                {getLang("missionTitle")}
+                {getLang("missionTitle1")}
+              </span>
+              <span className="block text-nowrap">
+                {getLang("missionTitle2")}
               </span>
             </p>
             <div className="font-inter flex flex-col gap-[16px] font-regular text-[16px]  text-[#3D3C39] pt-[16px] ">

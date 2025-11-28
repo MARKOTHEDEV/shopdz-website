@@ -184,10 +184,15 @@ const mapping: Record<string, Record<Lang, string>> = {
     fr: "Nous croyons que toute personne ayant quelque chose à vendre mérite les outils pour grandir.",
     ar: "نؤمن أن أي شخص لديه شيء لبيعه يستحق الأدوات للنمو.",
   },
-  missionTitle: {
-    en: "Our mission to make selling online as simple",
-    fr: "Notre mission de rendre la vente en ligne aussi simple",
-    ar: "مهمتنا لجعل البيع عبر الإنترنت بسيطاً",
+  missionTitle1: {
+    en: "Our goal to make",
+    fr: "Notre objectif est de rendre",
+    ar: "هدفنا هو جعل",
+  },
+  missionTitle2: {
+    en: "selling online as simple",
+    fr: "la vente en ligne aussi simple",
+    ar: "البيع عبر الإنترنت بسيطاً",
   },
   missionDesc1: {
     en: "To empower small businesses in emerging markets to sell online simply, locally, and beautifully",
