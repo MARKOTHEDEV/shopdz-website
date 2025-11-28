@@ -1,0 +1,32 @@
+export type Shop = {
+  id: number;
+  name: string;
+  description: string;
+  slug: string;
+  storeUrl: string;
+  ownerId: number;
+  coverImage: string;
+  country: string;
+  whatsappNumber: string;
+  storeAddress: string;
+  storeRegion: string;
+  deliveryLocations: string;
+  logoUrl: string;
+  brandColor: string;
+  multilangMetadata: null;
+  defaultLanguage: string;
+  socialAccounts: {
+    type: string;
+    value: string;
+  }[];
+  isActive: boolean;
+  isPublished: boolean;
+  currency: string;
+  createdAt: string;
+  updatedAt: string;
+  category: string;
+  businessType: string;
+  coverImageId: number;
+  logoId: number;
+  languageCode: string;
+};
